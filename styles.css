@@ -25,3 +25,29 @@
 .navbar a:hover {
     color: lightslategray;
 }
+
+/* Headers */ 
+h1 {
+    font-size: 2.5em; /* Resize text, 1 em = current font size; default 16 px, so this is 40 */
+}
+
+h2 {
+    font-size: 1.75em; /* Equivalent 28 px */ 
+}
+
+/* Images with text 
+.imgflex {
+    display: flex; 
+}
+*/
+.imgflexcontent {
+    display: inline-block; 
+    margin-left: 5px; 
+    margin-top: 0px;
+}
+
+.imgside {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
