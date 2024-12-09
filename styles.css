@@ -1,3 +1,27 @@
+/* For all elements */
 * {
-    font-family: sans-serif
+    font-family: sans-serif;
+}
+
+/* Navigation bar */
+.navbar {
+    width: 100%;
+    background-color: #94d6ff;
+    overflow: auto; 
+    padding: 0.5% 0; /* Adds top-botton padding 0.5%, left-right 0%*/
+}
+
+/* Link elements */
+.navbar a {
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+}
+
+.navbar a:link, a:visited {
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    color: lightslategray;
 }
