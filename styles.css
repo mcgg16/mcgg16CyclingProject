@@ -6,12 +6,12 @@
 /* Navigation bar */
 .navbar {
     width: 100%;
-    background-color: #94d6ff;
+    background-color: #5cc0ff;
     overflow: auto; 
     padding: 0.5% 0; /* Adds top-botton padding 0.5%, left-right 0%*/
 }
 
-/* Link elements */
+/* Navbar elements */
 .navbar a {
     text-decoration: none;
     color:black;
@@ -22,8 +22,15 @@
     text-decoration: none; 
 }
 
-.navbar a:hover {
+/* Makes all hover links gray, nav and in-text */
+a:hover {
     color: lightslategray;
+}
+
+/* External URLs */
+.text-link {
+    color: #5cc0ff;
+    text-decoration: underline;
 }
 
 /* Headers */ 
@@ -33,17 +40,6 @@ h1 {
 
 h2 {
     font-size: 1.75em; /* Equivalent 28 px */ 
-}
-
-/* Images with text 
-.imgflex {
-    display: flex; 
-}
-*/
-.imgflexcontent {
-    display: inline-block; 
-    margin-left: 5px; 
-    margin-top: 0px;
 }
 
 .imgside {
