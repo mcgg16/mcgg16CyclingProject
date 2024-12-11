@@ -40,6 +40,17 @@ h1 {
 
 h2 {
     font-size: 1.75em; /* Equivalent 28 px */ 
+    color: #92663E;
+}
+
+h3 {
+    font-size: 1.25em; 
+    color: #A0764B;
+}
+
+/* Bolding */
+b {
+    color: #c09053;
 }
 
 /* Image with text containers */
