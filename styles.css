@@ -76,12 +76,12 @@ b {
 .container {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .container img {
-    width: 50%;
-    height: 50%;
+    width: 30%;
+    height: 30%;
     float: left;
 }
 
