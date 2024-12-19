@@ -40,39 +40,20 @@ h1 {
 
 h2 {
     font-size: 1.75em; /* Equivalent 28 px */ 
-    color: #92663E;
+    color: #321a08;
 }
 
 h3 {
     font-size: 1.25em; 
-    color: #A0764B;
+    color: #55371b;
 }
 
 /* Bolding */
 b {
-    color: #c09053;
+    color: #834913;
 }
 
-/* Image with text containers */
-/*
-.container {
-    display: flex; 
-    flex-direction: row; 
-    justify-content: left;
-    height: 10%; 
-    width: auto; 
-    &-img {
-        width: 250px;
-        margin: 30px 30px 30px 0;
-        float: left;
-      }
-      &-txt {
-        display: inline;
-        color:aqua;
-      }
-}
-*/
-
+/* Container for image and paragraph */
 .container {
     display: flex;
     flex-direction: row;
